@@ -1,0 +1,421 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  visibility: visible !important;
+  font-family: "Myriad Pro", sans-serif, arial;
+}
+/*Fuentes*/
+@font-face {
+    font-family: 'HelveticaLTStdLight';
+    src: url('../fonts/helveticaltstd-light-webfont.eot');
+    src: url('../fonts/helveticaltstd-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaltstd-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaltstd-light-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaltstd-light-webfont.svg#HelveticaLTStdLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaLTStdBold';
+    src: url('../fonts/helveticaltstd-bold-webfont.eot');
+    src: url('../fonts/helveticaltstd-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaltstd-bold-webfont.woff') format('woff'),
+         url('../fonts/helveticaltstd-bold-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaltstd-bold-webfont.svg#HelveticaLTStdBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaLTStdRoman';
+    src: url('../fonts/helveticaltstd-roman-webfont.eot');
+    src: url('../fonts/helveticaltstd-roman-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaltstd-roman-webfont.woff') format('woff'),
+         url('../fonts/helveticaltstd-roman-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaltstd-roman-webfont.svg#HelveticaLTStdRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+a{text-decoration: none;}
+.box-line{display: inline-block;width: 100%;vertical-align: top;}
+.container-upcom{width: 1000px;margin: 0 auto;}
+.header-upcom{height: 575px;background: #fff url(../img/bloque_1.jpg) no-repeat;background-size: 100% 100%;}
+/*Menu*/
+.nav ul{list-style: none;padding-left: 0;margin: 0;text-align: center;margin-top: 45px;}
+.nav ul li{margin-left: 20px;display: inline-block;vertical-align: middle;}
+.nav ul li:first-child{margin-left: 0;}
+.nav ul li a{color: #ff3700;font-size: 20px;text-transform: uppercase;}
+.nav ul li a:hover{text-decoration: underline;}
+
+/*Logo*/
+.header-upcom h1{text-align: center;margin-top: 120px;margin-bottom: 0;}
+.header-upcom h2{text-align: center;font-size: 20px;color: #6f6f6f;font-weight: normal;line-height: 120%;margin-top: 60px;}
+
+/*Bloque 2*/
+.estrategias-upcom ul{list-style: none;padding-left: 0;margin: 0;text-align: center;margin-top: 125px;}
+.estrategias-upcom ul li{margin-left: 60px;display: inline-block;vertical-align: top;width: 250px;}
+.estrategias-upcom ul li:first-child{margin-left: 0;}
+.cnt_bloque_li{text-align: center;}
+.estrategias-upcom h3{color: #fff;font-family: "HelveticaLTStdRoman", sans-serif, arial;font-size: 20px;text-transform: uppercase;line-height: 120%;letter-spacing: 3px;margin-top: 30px;margin-bottom: 25px;}
+.estrategias-upcom p{color: #fff;font-family: "HelveticaLTStdLight", sans-serif, arial;font-size: 16px;line-height: 120%;}
+.cnt_bloque_li figure{margin: 0;}
+.cnt_bloque_li span{display: inline-block;width: 20px;height: 17px;background: url(../img/ping.png) no-repeat;margin-top: 25px;}
+
+/*Bloque 3*/
+.servicios-upcom .container-upcom{text-align: center;}
+.servicios-upcom figure{margin: 0;}
+.servicios-upcom ul{list-style: none;padding-left: 0;margin: 0;text-align: center;margin-top: 45px;}
+.servicios-upcom ul li{margin-left: 45px;display: inline-block;vertical-align: top;width: 114px;}
+.servicios-upcom ul li:first-child{margin-left: 0;}
+.servicios-upcom p{font-family: "HelveticaLTStdLight", sans-serif, arial;font-size: 19px;color: #fff;line-height: 120%;}
+.servicios-upcom h2{color: #fff;font-size: 26px;font-family: "HelveticaLTStdRoman", sans-serif, arial;margin: 0;letter-spacing: 3px;text-transform: uppercase;font-weight: normal;margin-top: 160px;}
+.servicios-upcom span{display: inline-block;background: #ff3700;width: 55px;height: 8px;}
+
+/*Bloque 4*/
+.empresa-upcom .container-upcom{background: url(../img/bloque4.jpg) no-repeat;height: 600px}
+.empresa-upcom h2{width: 450px;font-family: "HelveticaLTStdRoman", sans-serif, arial;font-size: 20px;text-transform: uppercase;letter-spacing: 3px;color: #fff;font-weight: normal;margin-bottom: 30px;padding-top: 330px;margin-top: 0;margin-left: 310px;line-height: 120%;}
+.empresa-upcom p{width: 450px;font-family: "HelveticaLTStdLight", sans-serif, arial;font-size: 20px;color: #fff;margin-left: 310px;line-height: 120%;}
+
+/*Bloque 5*/
+.consultoria-upcom{text-align: center;}
+.consultoria-upcom figure{margin: 0;}
+.consultoria-upcom h2{color: #9e9e9e;font-size: 19px;font-family: "HelveticaLTStdRoman", sans-serif, arial;letter-spacing: 3px;line-height: 140%;font-weight: normal;text-transform: uppercase;margin-bottom: 20px;margin-top: 0;padding-top: 115px;}
+.consultoria-upcom p{font-family: "HelveticaLTStdLight", sans-serif, arial;font-size: 19px;color: #9e9e9e;line-height: 120%;margin: 0;}
+.consultoria-upcom ul{list-style: none;padding-left: 0;margin: 0;text-align: center;margin-top: -50px;}
+.consultoria-upcom ul li{margin-left: 45px;display: inline-block;vertical-align: top;width: 125px;}
+.consultoria-upcom ul li:first-child{margin-left: 0;}
+.consultoria-upcom span{color: #9e9e9e;font-size: 15px;font-family: "HelveticaLTStdBold", sans-serif, arial;margin-top: 20px;text-transform: uppercase;display: inline-block;letter-spacing: 2px;}
+.two-list{margin-top: 75px;}
+.center-list{margin-top: 125px;}
+/*Bloque 6*/
+.hacemos-upcom{text-align: center;}
+.hacemos-upcom figure{margin: 0;}
+.hacemos-upcom h2{color: #fff;font-size: 20px;font-family: "HelveticaLTStdRoman", sans-serif, arial;margin: 0;letter-spacing: 5px;text-transform: uppercase;font-weight: normal;margin-top: 120px;margin-bottom: 10px;}
+.hacemos-upcom span.sub_title{display: inline-block;background: #ff3700;width: 55px;height: 8px;}
+.hacemos-upcom ul{list-style: none;padding-left: 0;margin: 0;text-align: center;margin-top: 35px;}
+.hacemos-upcom ul li{margin-left: 23px;display: inline-block;vertical-align: top;width: 178px;}
+.hacemos-upcom ul li:first-child{margin-left: 0;}
+.hacemos-upcom ul li span{color: #fff;font-family: "HelveticaLTStdLight", sans-serif, arial;line-height: 120%;font-size: 18px;display: inline-block;margin-top: 25px;text-transform: uppercase;}
+
+/*Septimo bloque*/
+.mensaje-upcom p{font-size: 20px;font-family: "HelveticaLTStdRoman", sans-serif, arial;color: #858585;text-align: center;margin: 0;letter-spacing: 3px;margin-top: 105px;}
+ul.bloque_msn{list-style: none;padding-left: 0;margin: 0;text-align: center;margin-top: 50px;}
+ul.bloque_msn li{margin-left: 60px;display: inline-block;vertical-align: top;width: 300px;}
+ul.bloque_msn li:first-child{margin-left: 0;}
+.cnt_msn{background: #ff3700;}
+span.icon_msn_c{display: inline-block;width: 23px;height: 34px;background: url(../img/celular.png) no-repeat;margin-top: 40px;}
+span.icon_msn_e{display: inline-block;width: 34px;height: 33px;background: url(../img/mail.png) no-repeat;margin-top: 40px;}
+.cnt_msn h5{font-family: "HelveticaLTStdRoman", sans-serif, arial;font-size: 16px;color: #fff;text-transform: uppercase;margin-top: 40px;letter-spacing: 3px;font-weight: normal;margin-bottom: 0;}
+span.space_c{display: inline-block;width: 8px;height: 1px;background: #fff;vertical-align: top;margin-top: 12px;}
+.cnt_msn h4{margin: 0;color: #fff;font-size: 16px;font-family: "HelveticaLTStdLight", sans-serif, arial;letter-spacing: 3px;margin-top: 10px;padding-bottom: 35px;}
+
+ul.bloque_social{list-style: none;padding-left: 0;margin: 0;text-align: center;margin-top: 50px;}
+ul.bloque_social li{margin-left: 35px;display: inline-block;vertical-align: top;width: 64px;}
+ul.bloque_social li:first-child{margin-left: 0;}
+ul.bloque_social li a{display: block;}
+ul.bloque_social li a img{width: 100%;}
+
+/*Preloader*/
+#preloader{position: fixed;top: 0; bottom: 0;left: 0; right: 0;background-color: #8bbab6;z-index: 999999;}
+#status{width: 200px;height: 200px;position: absolute;left: 50%;top: 50%;margin: -100px 0 0 -50px;text-align: center;font-size: 50px;}
+#preloader-title{margin-top: 47px;}
+#preloader i.fa{font-size: 150px;margin: 15px;margin-bottom: 25px;}
+
+.estrategias-upcom{height: 600px;background: #72BBB8;}
+.servicios-upcom{height: 600px;background: #666 url(../img/bloque_3.jpg) no-repeat;background-size: 100% 100%;}
+.empresa-upcom{height: 600px;background: #72BBB8;}
+.consultoria-upcom{height: 600px;background: #fff;}
+.hacemos-upcom{height: 600px;background: #72BBB8;}
+.mensaje-upcom{height: 600px;background: #fff;}
+.animated{visibility: hidden;-webkit-animation-duration: .65s;animation-duration: .65s;}
+.visible{visibility: visible;}
+/*loader*/
+.fadingBarsG{position:absolute;top:0;background-color:#ffffff;width:29px;height:29px;-moz-animation-name:bounce_fadingBarsG;-moz-animation-duration:1.1s;-moz-animation-iteration-count:infinite;-moz-animation-direction:normal;-moz-transform:scale(.3);-webkit-animation-name:bounce_fadingBarsG;-webkit-animation-duration:1.1s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:normal;-webkit-transform:scale(.3);-ms-animation-name:bounce_fadingBarsG;-ms-animation-duration:1.1s;-ms-animation-iteration-count:infinite;-ms-animation-direction:normal;-ms-transform:scale(.3);-o-animation-name:bounce_fadingBarsG;-o-animation-duration:1.1s;-o-animation-iteration-count:infinite;-o-animation-direction:normal;-o-transform:scale(.3);animation-name:bounce_fadingBarsG;animation-duration:1.1s;animation-iteration-count:infinite;animation-direction:normal;transform:scale(.3);}
+#fadingBarsG_1{left:0;-moz-animation-delay:0.44s;-webkit-animation-delay:0.44s;-ms-animation-delay:0.44s;-o-animation-delay:0.44s;animation-delay:0.44s;}
+#fadingBarsG_2{left:30px;-moz-animation-delay:0.55s;-webkit-animation-delay:0.55s;-ms-animation-delay:0.55s;-o-animation-delay:0.55s;animation-delay:0.55s;}
+#fadingBarsG_3{left:60px;-moz-animation-delay:0.66s;-webkit-animation-delay:0.66s;-ms-animation-delay:0.66s;-o-animation-delay:0.66s;animation-delay:0.66s;}
+#fadingBarsG_4{left:90px;-moz-animation-delay:0.77s;-webkit-animation-delay:0.77s;-ms-animation-delay:0.77s;-o-animation-delay:0.77s;animation-delay:0.77s;}
+#fadingBarsG_5{left:120px;-moz-animation-delay:0.88s;-webkit-animation-delay:0.88s;-ms-animation-delay:0.88s;-o-animation-delay:0.88s;animation-delay:0.88s;}
+#fadingBarsG_6{left:150px;-moz-animation-delay:0.99s;-webkit-animation-delay:0.99s;-ms-animation-delay:0.99s;-o-animation-delay:0.99s;animation-delay:0.99s;}
+#fadingBarsG_7{left:180px;-moz-animation-delay:1.1s;-webkit-animation-delay:1.1s;-ms-animation-delay:1.1s;-o-animation-delay:1.1s;animation-delay:1.1s;}
+#fadingBarsG_8{left:210px;-moz-animation-delay:1.21s;-webkit-animation-delay:1.21s;-ms-animation-delay:1.21s;-o-animation-delay:1.21s;animation-delay:1.21s;}
+
+@-moz-keyframes bounce_fadingBarsG{
+0%{-moz-transform:scale(1);background-color:#ffffff;}
+100%{-moz-transform:scale(.3);background-color:#FFFFFF;}
+}
+@-webkit-keyframes bounce_fadingBarsG{
+0%{-webkit-transform:scale(1);background-color:#ffffff;}
+100%{-webkit-transform:scale(.3);background-color:#FFFFFF;}
+}
+@-ms-keyframes bounce_fadingBarsG{
+0%{-ms-transform:scale(1);background-color:#ffffff;}
+100%{-ms-transform:scale(.3);background-color:#FFFFFF;}
+}
+@-o-keyframes bounce_fadingBarsG{
+0%{-o-transform:scale(1);background-color:#ffffff;}
+100%{-o-transform:scale(.3);background-color:#FFFFFF;}
+}
+@keyframes bounce_fadingBarsG{
+0%{transform:scale(1);background-color:#ffffff;}
+100%{transform:scale(.3);background-color:#FFFFFF;}
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ * http://juicystudio.com/article/screen-readers-display-none.php
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
